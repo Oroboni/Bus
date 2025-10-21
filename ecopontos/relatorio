@@ -1,0 +1,35 @@
+--- Relatório da Rede de Ecopontos ---
+Data de Geração: Tue Oct 21 20:53:07 GMT-03:00 2025
+
+Número total de Ecopontos: 6
+Número total de Conexões: 7
+
+--- Detalhes dos Ecopontos ---
+  Terminal Central (ID: 1)
+  Ecoponto Norte (ID: 2)
+  Ecoponto Sul (ID: 3)
+  Ecoponto Leste (ID: 4)
+  Ecoponto Oeste (ID: 5)
+  Centro Administrativo (ID: 6)
+
+--- Grau de Cada Ecoponto ---
+  Terminal Central (ID: 1) - Grau: 3
+  Ecoponto Norte (ID: 2) - Grau: 2
+  Ecoponto Sul (ID: 3) - Grau: 2
+  Ecoponto Leste (ID: 4) - Grau: 2
+  Ecoponto Oeste (ID: 5) - Grau: 2
+  Centro Administrativo (ID: 6) - Grau: 3
+
+--- Conexões (Arestas) ---
+  Terminal Central (1) -- 10 --> Ecoponto Norte (2)
+  Terminal Central (1) -- 15 --> Ecoponto Sul (3)
+  Ecoponto Norte (2) -- 12 --> Ecoponto Leste (4)
+  Ecoponto Sul (3) -- 8 --> Ecoponto Oeste (5)
+  Ecoponto Leste (4) -- 20 --> Centro Administrativo (6)
+  Ecoponto Oeste (5) -- 5 --> Centro Administrativo (6)
+  Terminal Central (1) -- 25 --> Centro Administrativo (6)
+
+--- Exemplo de Caminho Mais Curto (Dijkstra) ---
+  Caminho de Terminal Central para Ecoponto Norte:
+Terminal Central (1) --[10]--> Ecoponto Norte (2)
+  Custo total do caminho: 10

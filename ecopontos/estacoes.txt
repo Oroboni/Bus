@@ -1,0 +1,6 @@
+1;Terminal Central
+2;Ecoponto Norte
+3;Ecoponto Sul
+4;Ecoponto Leste
+5;Ecoponto Oeste
+6;Centro Administrativo
